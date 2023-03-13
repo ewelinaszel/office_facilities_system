@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Office_System", "Office_System.csproj", "{5D8CB72C-0156-4D62-A79F-1747BF773B37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Office_System", "Office_System\Office_System.csproj", "{5D8CB72C-0156-4D62-A79F-1747BF773B37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "..\DataAccessLayer\DataAccessLayer.csproj", "{75F13FF9-7542-4D74-B154-AF225A659602}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{75F13FF9-7542-4D74-B154-AF225A659602}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eweli\\OneDrive\\Pulpit\\Office\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\Users\\eweli\\OneDrive\\Pulpit\\Office\\office_facilities_system\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eweli\\OneDrive\\Pulpit\\Office\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\eweli\\OneDrive\\Pulpit\\Office\\office_facilities_system\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eweli\\OneDrive\\Pulpit\\Office\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\eweli\\OneDrive\\Pulpit\\Office\\office_facilities_system\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\eweli\\OneDrive\\Pulpit\\Office\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\eweli\\OneDrive\\Pulpit\\Office\\office_facilities_system\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\eweli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eweli\\OneDrive\\Pulpit\\Office\\DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\eweli\\OneDrive\\Pulpit\\Office\\office_facilities_system\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
