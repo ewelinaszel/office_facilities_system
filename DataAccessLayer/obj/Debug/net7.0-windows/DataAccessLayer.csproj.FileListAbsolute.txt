@@ -1,0 +1,14 @@
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\bin\Debug\net7.0-windows\DataAccessLayer.deps.json
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\bin\Debug\net7.0-windows\DataAccessLayer.runtimeconfig.json
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\bin\Debug\net7.0-windows\DataAccessLayer.dll
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\bin\Debug\net7.0-windows\DataAccessLayer.pdb
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\obj\Debug\net7.0-windows\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\obj\Debug\net7.0-windows\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\obj\Debug\net7.0-windows\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\obj\Debug\net7.0-windows\DataAccessLayer.AssemblyInfo.cs
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\obj\Debug\net7.0-windows\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\obj\Debug\net7.0-windows\DataAccessLayer.dll
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\obj\Debug\net7.0-windows\refint\DataAccessLayer.dll
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\obj\Debug\net7.0-windows\DataAccessLayer.pdb
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\obj\Debug\net7.0-windows\DataAccessLayer.genruntimeconfig.cache
+C:\Users\eweli\OneDrive\Pulpit\Office\DataAccessLayer\obj\Debug\net7.0-windows\ref\DataAccessLayer.dll
