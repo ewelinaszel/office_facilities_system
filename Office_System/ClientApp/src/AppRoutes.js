@@ -1,6 +1,7 @@
 import { Counter } from "./components/Counter";
 import { FetchData } from "./components/FetchData";
 import { Home } from "./components/Home";
+import { RoomReservationUI } from "./components/RoomReservationUI"
 
 const AppRoutes = [
   {
@@ -14,6 +15,10 @@ const AppRoutes = [
   {
     path: '/fetch-data',
     element: <FetchData />
+    },
+  {
+     path: '/room-reservation',
+     element: <RoomReservationUI />
   }
 ];
 
