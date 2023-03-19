@@ -11,7 +11,7 @@ export class RoomReservationUI extends Component {
 
     constructor(props) {
         super(props);
-        this.state = { forecasts: [], loading: true };
+        this.state = {loading: true };
     }
 
     componentDidMount() {
@@ -20,33 +20,14 @@ export class RoomReservationUI extends Component {
 
     static renderForecastsTable(forecasts) {
         return (
-            <table className="table table-striped" aria-labelledby="tableLabel">
-                <thead>
-                    <tr>
-                        <th>Date</th>
-                        <th>Temp. (C)</th>
-                        <th>Temp. (F)</th>
-                        <th>Summary</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {forecasts.map(forecast =>
-                        <tr key={forecast.date}>
-                            <td>{forecast.date}</td>
-                            <td>{forecast.temperatureC}</td>
-                            <td>{forecast.temperatureF}</td>
-                            <td>{forecast.summary}</td>
-                        </tr>
-                    )}
-                </tbody>
-            </table>
+            <p>Zrobione!</p>
         );
     }
 
     render() {
         let contents = this.state.loading
             ? <p><em>Loading...</em></p>
-            : FetchData.renderForecastsTable(this.state.forecasts);
+            : RoomReservationUI.renderForecastsTable(this.state.forecasts);
 
         return (
             <div>
@@ -57,9 +38,19 @@ export class RoomReservationUI extends Component {
         );
     }
 
+    
     async populateWeatherData() {
-        const response = await fetch('weatherforecast');
-        const data = await response.json();
-        this.setState({ forecasts: data, loading: false });
+        var jsonData = {
+            startDateTime: "2023-03-19T17:41:01.497Z",
+            endDateTime: "2024-03-19T17:41:01.497Z",
+            roomId: 1
+        };
+        const requestOptions = {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(jsonData)
+        };
+        const response = await fetch('https://localhost:44452/roomreservation', requestOptions);            ;
+        this.setState({ loading: false });
     }
 }
